@@ -1,0 +1,22 @@
+.root{
+	-fx-alignment:center;
+	-fx-vgap:10mm;
+	-fx-hgap:5mm;
+	-fx-background-image:url(heaven.jpg);
+}
+.label{
+	-fx-text-fill:rgb(0,0,0);
+	-fx-font-size:16pt;
+	-fx-background-color:rgba(255,255,255,0.6);
+	-fx-font-family: "메이플스토리";
+}
+.button{
+	-fx-background-color:linear-gradient( from 0.0% 0.0% to 100.0% 100.0%, rgb(255,255,255) 0.0, rgb(255,204,230) 100.0);
+	-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 10, 0 , 2 , 2 );
+}
+.button:hover{
+	-fx-background-color:radial-gradient( focus-angle 0.0deg, focus-distance 0.0%, center 50.0% 50.0%, radius 100.0%, rgb(255,255,255) 0.0, rgb(0,0,0) 100.0 )
+}
+.button:pressed {
+    -fx-background-color: linear-gradient(yellow, #61a2b1); 
+}
